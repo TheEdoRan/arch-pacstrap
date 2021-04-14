@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
-pacstrap /mnt base base-devel linux linux-firmware texinfo inetutils networkmanager \
+pacstrap /mnt base base-devel linux-zen linux-firmware texinfo inetutils networkmanager \
               perl man-db man-pages diffutils less nano vi neovim sysfsutils \
-              e2fsprogs dosfstools usbutils which logrotate reflector git bash-completion
+              e2fsprogs dosfstools ntfs-3g usbutils which logrotate reflector git \
+              bash-completion intel-ucode
